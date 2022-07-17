@@ -28,10 +28,17 @@
 # Для числа 2 потріботно повернути 2, тому що число 2 складається з однієї цифри.
 
 
-def sumNum(num):
-    return num
-
-print(sumNum(38) == 2) 
-print(sumNum(40) == 4)
-print(sumNum(48) == 3) 
-print(sumNum(2) == 2) 
+x = input()
+def sumX():
+    a = int(x[0])
+    b = int(x[1])
+    c = a + b
+    if c < 10:
+        print(c)
+    elif c > 10:
+        d = str(c)
+        f = int(d[0])
+        e = int(d[1])
+        j = f + e
+        print(j)
+sumX()

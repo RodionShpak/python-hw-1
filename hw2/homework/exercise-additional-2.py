@@ -15,8 +15,12 @@
 # commonStr('good day', 'good morning') -> 'god'
 
 
-def commonStr(str1, str2):
-    return ''
-
-print(commonStr('loli', 'luck') == 'l') 
-print(commonStr('good day', 'good morning') == 'god') 
+str1 = input()
+str2 = input()
+def commonStr():
+    comparison = list(set(str1) & set(str2))
+    a = ''.join(comparison)
+    b = a.split()
+    c = ''.join(b)
+    print(c)
+commonStr()
